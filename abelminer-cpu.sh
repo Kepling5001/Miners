@@ -53,7 +53,7 @@ case "$ACTION" in
             usage
         fi
 
-        DOWNLOAD_URL="https://download.pqabelian.io/release/pool/abelminer-cpu-linux-${ARCH}-v0.13.2.tar.gz"
+        DOWNLOAD_URL="https://github.com/Kepling5001/Miners/raw/refs/heads/main/abelminer-cpu-linux-amd64-v0.13.2.tar.gz"
 
         REAL_USER="${SUDO_USER:-$(whoami)}"
         USER_HOME=$(eval echo "~$REAL_USER")
